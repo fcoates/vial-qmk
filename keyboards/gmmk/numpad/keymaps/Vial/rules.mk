@@ -1,0 +1,5 @@
+VIA_ENABLE=yes
+VIA_ENABLE=YES
+ENCODER_MAP_ENABLE=yes
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
