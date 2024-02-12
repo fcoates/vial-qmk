@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+dependabot/github_actions/actions/checkout-4
+    - uses: actions/checkout@v4
     - name: (actions) Checkout Vial repo
       uses: actions/checkout@v3
       with:
